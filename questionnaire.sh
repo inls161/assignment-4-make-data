@@ -2,7 +2,7 @@
 
 #This is  a questionnaire that allows for user input of answers. Then we will turn the answers into a .csv file. 
 echo "What is your Github Username?"
-read ans >> answers.list
+read ans > answers.list
 
 echo "Do you have a car?"
 read ans1
